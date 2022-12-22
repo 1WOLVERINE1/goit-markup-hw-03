@@ -130,11 +130,12 @@ img {
   color: var(--active-link-color);
 }
 .hero {
+  padding-top: 192px;
+  padding-bottom: 192px;
   background-color: #2e2f42;
   text-align: center;
 }
 .hero-title {
-  padding-top: 192px;
   margin-bottom: 48px;
   color: #ffffff;
   font-weight: 600;
@@ -143,7 +144,6 @@ img {
   letter-spacing: 0.02em;
 }
 .hero-btn {
-  margin-bottom: 192px;
   border: 0;
   border-radius: 4px;
   color: #ffffff;
@@ -167,11 +167,13 @@ img {
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.quality {
+  padding-top: 120px;
+}
 .quality-list {
   display: flex;
 }
 .quality-item {
-  margin-top: 120px;
   margin-right: 24px;
 }
 .quality-item:last-child {
@@ -192,9 +194,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.examples {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .examples-list {
   display: flex;
-  margin-bottom: 120px;
 }
 .examples-item {
   margin-right: 24px;
@@ -204,7 +209,6 @@ img {
 }
 .examples-title {
   margin-bottom: 72px;
-  padding-top: 120px;
   color: var(--title-text-color);
   font-weight: 600;
   font-size: 36px;
@@ -219,6 +223,8 @@ img {
   background-blend-mode: soft-light, normal;
 }
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #f4f4fd;
 }
 .team-list {
@@ -226,7 +232,6 @@ img {
 }
 .team-item {
   margin-right: 24px;
-  margin-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -237,7 +242,6 @@ img {
 }
 .team-title {
   margin-bottom: 72px;
-  padding-top: 120px;
   color: var(--title-text-color);
   font-weight: 600;
   font-size: 36px;
@@ -276,13 +280,16 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .portfolio-filters-list {
+  margin-bottom: 72px;
   display: flex;
   justify-content: center;
 }
 .portfolio-filter-item {
-  margin-top: 96px;
-  margin-bottom: 72px;
   margin-right: 24px;
 }
 .portfolio-filter-item:last-child {
@@ -325,12 +332,15 @@ img {
   margin-right: 0;
 }
 .portfolio-products-item:nth-child(n + 7) {
-  margin-bottom: 120px;
+  margin-bottom: 0;
+}
+.cards-item {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 .portfolio-products-title {
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
   color: var(--title-text-color);
   font-weight: 600;
   font-size: 20px;
@@ -338,8 +348,6 @@ img {
   letter-spacing: 0.02em;
 }
 .portfolio-products-text {
-  margin-bottom: 32px;
-  margin-left: 16px;
   color: var(--side-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -347,6 +355,8 @@ img {
 }
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   max-width: 115px;
@@ -360,16 +370,13 @@ img {
   text-transform: uppercase;
 }
 .footer-logo-main {
-  padding-top: 100px;
   color: var(--joint-logo-color);
 }
 .footer-logo-side {
-  padding-top: 100px;
   color: var(--footer-logo-color);
 }
 .footer-text {
   max-width: 264px;
-  padding-bottom: 100px;
   color: #e7e9fc;
   font-size: 16px;
   line-height: 1.5;
